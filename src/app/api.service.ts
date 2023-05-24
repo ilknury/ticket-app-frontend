@@ -10,7 +10,7 @@ export class ApiService {
   logOut() {
     throw new Error('Method not implemented.');
   }
-  private baseUrl = 'http://localhost:5000/api';
+  private baseUrl = 'https://ticket-api-l6ow.onrender.com/api';
   token = '';
 
 
